@@ -1,0 +1,82 @@
+.ending-bg {
+  background-image: url("/public/endingBg.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 25em;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.block {
+  background-color: white;
+  width: 80vw;
+  height: 35vh;
+  border-radius: 50px;
+  position: absolute;
+  top: -5em;
+  z-index: 10;
+}
+
+.btn-ending {
+  display: flex;
+  gap: 10px;
+}
+
+p {
+  color: white;
+}
+
+.emoji {
+  width: 100%;
+  border-radius: 50px;
+}
+
+@media (max-width: 1300px) {
+  h1 {
+    left: 3% !important;
+  }
+  .btnp {
+    left: 41% !important;
+  }
+  .block {
+    height: 10vh;
+    top: -2em;
+    border-radius: 20px;
+  }
+
+  .emoji {
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .btnp {
+    left: 39% !important;
+  }
+
+  .block {
+    height: 10vh;
+    top: -2em;
+    border-radius: 20px;
+  }
+
+  .emoji {
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .block {
+    height: 10vh;
+    top: -2em;
+    border-radius: 20px;
+  }
+
+  .emoji {
+    border-radius: 20px;
+  }
+  .btnp {
+    left: 35.5% !important;
+  }
+}

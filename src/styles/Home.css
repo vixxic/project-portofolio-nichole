@@ -1,0 +1,89 @@
+body {
+  background-image: url(/public/background.png);
+  overflow-x: hidden;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  padding: 8rem 2rem 4rem;
+  margin: auto;
+  gap: 3rem;
+}
+
+/* text awal*/
+.text-content {
+  flex: 1;
+  color: white;
+}
+
+.welcome-card {
+  background-image: url("/public/welcome card.png");
+  width: max-content;
+  padding: 12px 18px;
+  border: 1px solid white;
+  margin-bottom: 1rem;
+}
+
+.welcome-card p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 3.2rem;
+  margin: 0;
+}
+
+.description {
+  color: rgb(186, 186, 186);
+  margin: 1.5rem 0 2.5rem;
+  line-height: 1.6;
+}
+/* text akhir */
+
+.astronot-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.img-astronot {
+  width: 90%;
+  max-width: 500px;
+}
+
+/* responsif */
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 9rem;
+  }
+
+  .astronot-container {
+    justify-content: center;
+  }
+
+  body {
+    background-image: url(/public/background-2.png);
+    background-size: auto;
+  }
+
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+  }
+}
