@@ -2,9 +2,9 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Project from "./components/Project";
+import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Ending from "./components/Ending";
-import Skills from "./components/Skills_TEST";
 import "./App.css";
 
 function App() {
