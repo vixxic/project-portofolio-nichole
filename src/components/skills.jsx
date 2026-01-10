@@ -1,39 +1,16 @@
-import "../styles/skills.css";
+import "../styles/Skills.css";
 
-function skills() {
+function Skills() {
   return (
-    <>
-      <div className="bg">
-        <div className="skills-container">
-          <h2
-            style={{
-              color: "white",
-              fontSize: "2.5em",
-              textAlign: "center",
-              marginBottom: "0",
-            }}
-          >
-            Skills
-          </h2>
-          <p
-            style={{
-              color: "rgb(186, 186, 186)",
-              textAlign: "center",
-              fontSize: "1.2em",
-              marginTop: "0",
-            }}
-          >
-            I’m still growing my abilities, but here are the things <br /> I
-            enjoy and keep improving
-          </p>
-
-          <div className="skills">
-            <img src="/skilssPresentage.png" className="skills-image"></img>
-          </div>
-        </div>
-      </div>
-    </>
+    <div className="skills-container">
+      <h1 style={{ marginBottom: "0" }}>Skills</h1>
+      <p style={{ margin: "0", textAlign: "center" }}>
+        I combine digital coding with traditional painting. Here is what I can
+        do
+      </p>
+      <img src="/skilssPresentage.png" className="skills-img" />
+    </div>
   );
 }
 
-export default skills;
+export default Skills;

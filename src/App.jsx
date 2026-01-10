@@ -1,9 +1,10 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Skills from "./components/skills";
+import AboutMe from "./components/AboutMe";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Ending from "./components/Ending";
+import Skills from "./components/Skills";
 import "./App.css";
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <Skills />
+      <AboutMe />
       <Project />
+      <Skills />
       <Contact />
       <Ending />
     </>

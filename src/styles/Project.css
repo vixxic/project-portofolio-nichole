@@ -58,6 +58,7 @@
 }
 
 .img {
+  position: relative;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -69,7 +70,27 @@
   display: block;
 }
 
-/* responsive */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(140, 45, 125, 0.9);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  padding: 10px;
+}
+
+.img:hover .overlay {
+  opacity: 1;
+}
 
 @media (max-width: 900px) {
   .img-project-container {
@@ -108,7 +129,7 @@
   }
 }
 
-@media (max-width: 500) {
+@media (max-width: 500px) {
   .project-container {
     min-height: 150vh;
   }

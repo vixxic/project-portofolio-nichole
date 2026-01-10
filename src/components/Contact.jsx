@@ -47,6 +47,11 @@ function Contact() {
                 }}
               ></input>
               <br />
+              <div className="div">
+                <span>Watsapp: 0813-1777-5938</span> <br /> Email:
+                janikanilobak@gmail.com
+              </div>
+              <br />
               <button
                 type="submit"
                 className="send-btn"
@@ -56,7 +61,6 @@ function Contact() {
               >
                 Send
               </button>
-              <div className="div"></div>
             </div>
           </form>
         </div>
